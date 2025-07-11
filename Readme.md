@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Алексей Землянко](https://up.htmlacademy.ru/htmlcss-individual/2/user/2657109).
-* Наставник: `Неизвестно`.
+- Студент: [Алексей Землянко](https://up.htmlacademy.ru/htmlcss-individual/2/user/2657109).
+- Наставник: [Ярослав Шевцов](https://htmlacademy.ru/profile/redx).
 
 ---
 
