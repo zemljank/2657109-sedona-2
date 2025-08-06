@@ -2,7 +2,6 @@
 
 - Студент: [Алексей Землянко](https://up.htmlacademy.ru/htmlcss-individual/2/user/2657109).
 - Наставник: [Ярослав Шевцов](https://htmlacademy.ru/profile/redx).
-- сайт: (https://zemljank.github.io/2657109-sedona-2/).
 
 ---
 

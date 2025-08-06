@@ -3,28 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Седона. Городок в Аризоне</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header" data-test="header">
       <nav class="navigation">
         <a class="navigation-logo" href="#">
-          <img class="page-header-logo" src="#" alt="Логотип города Sedona">
+          <img class="page-header-logo" src="images/logo.svg" width="140" height="70" alt="Логотип города Sedona">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="#" >Главная</a>
+            <a class="navigation-link" href="index.html" >Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
+        <div class="navigation-user-button">
         <ul class="navigation-user">
           <li class="navigation-user-item">
             <a class="navigation-user-link navigation-user-link-search" href="#">
-              <span class="visuall-hidden">Поиск</span>
+              <span class="visually-hidden">Поиск</span>
             </a>
           </li>
           <li class="navigation-user-item">
@@ -34,8 +37,9 @@
             </a>
           </li>
         </ul>
-      </nav>
             <a class="header-button" href="search">Хочу сюда!</a>
+        </div>
+      </nav>
     </header>
     <main class="main-inner" data-test="main">
       <h1 class="inner-header-title">Гостиницы Седоны</h1>
@@ -69,7 +73,7 @@
                 </li>
                 <li class="catalog-filter-item">
                  <label class="control">
-                  <input class="control-input" type="checkbox" name="wifi" checked>
+                  <input class="control-input" type="checkbox" name="wifi">
                   Wi-Fi
                  </label>
                 </li>
@@ -100,8 +104,8 @@
             </fieldset>
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Стоимость, ₽</legend>
-              <label class="filter-range-control">От <input type="text" name="min-interval" value="0"></label>
-              <label class="filter-range-control">От <input type="text" name="max-interval" value="9000"></label>
+              <label class="filter-range-control">от <input type="text" name="min-interval" value="0"></label>
+              <label class="filter-range-control">до<input type="text" name="max-interval" value="9000"></label>
               <button class="filter-range-handle min" type="button">
                 <span class="visually-hidden">Управление нижней границей стоимости</span>
               </button>
@@ -140,7 +144,7 @@
           <ul class="product-list">
             <li class="product-card">
               <a class="product-card-link" href="#">
-                <img class="product-card-image" src="#" alt="небо в горах">
+                <img class="product-card-image" src="images/catalog/hotel-1.jpg" width="300" height="212" alt="небо в горах">
                 <h3 class="product-card-title">Amara Resort & Spa</h3>
               </a>
               <p class="product-card-type">Гостиница</p>
@@ -152,19 +156,19 @@
             </li>
             <li class="product-card">
               <a class="product-card-link" href="#">
-                <img class="product-card-image" src="#" alt="радуга над хребетом">
+                <img class="product-card-image" src="images/catalog/hotel-2.jpg" width="300" height="212" alt="радуга над хребетом">
                 <h3 class="product-card-title">Villas at Poco Diablo</h3>
               </a>
             <p class="product-card-type">Гостиница</p>
               <p class="product-card-price">От 5000 ₽</p>
               <a class="product-card-button" href="#">Подробнее</a>
-              <a class="add-favorite-button" href="#">В избранное</a>
+              <a class="add-favorite-button active" href="#">В избранное</a>
               <p class="product-card-stars product-card-stars-4"><span class="visually-hidden">4 звезды</span></p>
               <p class="product-card-rating">Рейтинг: <span>9,2</span></p>
             </li>
             <li class="product-card">
               <a class="product-card-link" href="#1">
-                <img class="product-card-image" src="#" alt="горы на фоне неба">
+                <img class="product-card-image" src="images/catalog/hotel-3.jpg" width="300" height="212" alt="горы на фоне неба">
                 <h3 class="product-card-title">Desert Quail Inn</h3>
               </a>
             <p class="product-card-type">Гостиница</p>
@@ -176,7 +180,7 @@
             </li>
             <li class="product-card">
               <a class="product-card-link" href="#">
-                <img class="product-card-image" src="#" alt="горы на фоне звездного неба">
+                <img class="product-card-image" src="images/catalog/hotel-4.jpg" width="300" height="212" alt="горы на фоне звездного неба">
                 <h3 class="product-card-title">GreenTree Inn</h3>
               </a>
               <p class="product-card-type">Гостиница</p>
@@ -220,28 +224,31 @@
           </form>
         </section>
     </main>
-        <footer class="page-footer" data-test="footer">
-          <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a class="footer-social-link" href="#">
-                <span class="visuall-hidden">Вконтакте</span>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="footer-social-link" href="#">
-                <span class="visuall-hidden">Телеграм</span>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="footer-social-link" href="#">
-                <span class="visuall-hidden">YouTube</span>
-              </a>
-            </li>
-          </ul>
-          <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-          <a class="copyright" href="https=//htmlacademy.ru/">
-            <img class="htmlacademy-logo" src="#" alt="логопит htmlacademy">
-          </a>
-        </footer>
+    <footer class="page-footer" data-test="footer">
+      <ul class="footer-social-list">
+      <li class="footer-social-item">
+        <a class="footer-social-link" href="https://vk.com/htmlacademy">
+          <span class="visually-hidden">Вконтакте</span>
+          <img src="images/vk.svg" width="24" height="14" alt="">
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="footer-social-link" href="https://t.me/htmlacademy">
+          <span class="visually-hidden">Телеграм</span>
+          <img src="images/telegram.svg" width="18" height="16" alt="Telegram">
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="footer-social-link" href="https://www.youtube.com/user/htmlacademyru">
+          <span class="visually-hidden">YouTube</span>
+          <img src="images/youtube.svg" width="22" height="17" alt="YouTube">
+        </a>
+      </li>
+      </ul>
+      <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      <a class="copyright" href="https://htmlacademy.ru/">
+       <img class="htmlacademy-logo" src="images/Logo html.svg" alt="Логотип HTML Academy">
+      </a>
+    </footer>
   </body>
 </html>
