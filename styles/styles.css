@@ -284,7 +284,7 @@ body {
 
 .lead {
   text-align: center;
-  padding: 69px 0 68px;
+  padding: 69px 270px 68px;
   background-color: #ffffff;
 }
 
@@ -296,7 +296,7 @@ body {
   color: #000000;
   margin: 0 0 25px;
   font-family: "PT Sans", sans-serif;
-  max-width: 620px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -307,8 +307,8 @@ body {
   line-height: 26px;
   color: #333333;
   font-family: "PT Sans", sans-serif;
-  max-width: 651px;
   margin-top: 0;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -1685,12 +1685,13 @@ body {
   justify-content: space-between;
   box-sizing: border-box;
   width: 140px;
-  padding: 9px 22px 8px 23px;
+  padding: 9px 5px 8px 5px;
   border-radius: 4px;
   background: #F2F2F2;
   font: 400 16px/20px "PT Sans", sans-serif;
   text-transform: uppercase;
   color: #333;
+  text-align: center;
 }
 
 
@@ -1777,7 +1778,7 @@ body {
   height: 100%;
   background-color: rgba(242, 242, 242, 0.80);
   z-index: 2;
-  display: none;
+  display: flex;
 }
 
 .modal {
