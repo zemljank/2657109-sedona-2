@@ -857,7 +857,7 @@ body {
 
 
 /* наведение */
-.copyright:hover svg path {
+.copyright:hover svg {
   fill: #756157;
 }
 
@@ -1778,7 +1778,7 @@ body {
   height: 100%;
   background-color: rgba(242, 242, 242, 0.80);
   z-index: 2;
-  display: flex;
+  display: none;
 }
 
 .modal {
