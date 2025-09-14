@@ -56,7 +56,7 @@
                   </a>
                 </li>
                 <li class="breadcrumbs-item">
-                  <a class="breadcrumbs-link is-cureent" href="#">Гостиницы</a>
+                  <a class="breadcrumbs-link is-current" href="#">Гостиницы</a>
                 </li>
               </ol>
             </nav>
@@ -263,7 +263,7 @@
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="subscribe-form-name">
               <label class="visually-hidden" for="user-email">Ваш e-mail</label>
-              <input type="email" id="user-email" name="user-email" placeholder="Ваш e-mail">
+              <input type="email" id="user-email" name="user-email" placeholder="Ваш e-mail" required>
               <button class="subscribe-button" type="submit">Подписаться</button>
             </p>
           </form>
@@ -346,7 +346,7 @@
                 <label class="field-group-label" for="date-start">Дата Заезда:</label>
                 <div class="field-group-input">
                   <input id="date-start" class="input input-date" type="text" name="date-start"
-                    placeholder="Укажите дату" value="27 апреля 2020">
+                    placeholder="Укажите дату" value="27 апреля 2020" required>
                   <span class="alert alert-error">Мы не можем отправить вас в прошлое.</span>
                 </div>
               </div>
@@ -354,7 +354,7 @@
                 <label class="field-group-label" for="date-end">Дата Выезда:</label>
                 <div class="field-group-input">
                   <input id="date-end" class="input input-date" type="text" name="date-end" placeholder="Укажите дату"
-                    value="1 сентября 2023">
+                    value="1 сентября 2023" required>
                   <span class="alert">На эти даты есть свободные номера. Пока есть.</span>
                 </div>
               </div>
